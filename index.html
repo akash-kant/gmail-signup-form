@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Signup form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <div class="g-form">
+                    <img src="g-img2.png" alt="logo" > 
+                    <h3>Create your Google Account</h3>
+                    <form action="input" >
+                        <input type="text" placeholder="First name" required>
+                        <input type="text" placeholder="last name" required>
+                        <div id="uname">
+                        <input type="email" placeholder="Username" required>
+                        <label>
+                            @gmail.com
+                        </label>
+                        </div>
+                        <span>
+                            You can use Letters, numbers & periods
+                        </span>
+                        <br>
+                        <a href="#">Use my current email address instead</a>
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm" required>
+
+                        <span>
+                            Use 8 or more characters with a mix of letters,
+                            numbers & symbols
+                        </span>
+                        <br>
+                        <input type="checkbox" class="checkbox">
+                        &nbsp;Show password
+
+                        <div class="b-links">
+                            <a href="#">Sign in instead</a>
+                            <input type="submit" id="next" value="Next">
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="right">
+                <img src="g-img.svg" alt="security">
+                <p>One account. All of Google working for you</p>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
